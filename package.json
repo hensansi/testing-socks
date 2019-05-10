@@ -1,0 +1,14 @@
+{
+  "name": "testin-socks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js",
+    "test-with-undefined-port": "FIX_ME_PLEASE=true node index.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "https://github.com/hensansi/elasticsearch-js.git#show-issue-with-proxy-and-https",
+    "socks-proxy-agent": "^4.0.2"
+  }
+}
